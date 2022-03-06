@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head-section{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+}
+.eye{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.eye1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.inner-eye{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+.inner-eye1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 3px;
+    right: -5px;
+}
+.mouth{
+    width: 30px;
+    height: 7px;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+.body-section{
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 3px;
+    margin-left: -35px;
+    display: flex;
+    gap: 23px;
+    padding: 20px;
+    position: relative;
+    
+}
+.hand{
+    width: 9px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+.finger{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(1, 1, 15);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -53px;
+    margin-top: 38px;
+}
+.hand2{
+    width: 60px;
+    height: 9px;
+    background-color: blue;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.finger2{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(1, 1, 15);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: -22px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 146);
+
+}
+.rectangle{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(235, 235, 146);
+    margin-top: -15px;
+}
+.leg-section{
+    display: flex;
+    gap: 105px;
+    margin-left: -30px;
+    margin-top: 2px;
+}
+.leg{
+    width: 15px;
+    height: 60px;
+    background-color: blue;
+}
+.foot{
+    width: 25px;
+    height: 15px;
+    background-color: rgb(1, 1, 15);
+    margin-left: -5px;
+}
